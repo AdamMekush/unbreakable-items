@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "unbreakable-items",
+	"version": "${version}",
+	"name": "Unbreakable Items",
+	"description": "A simple mod that makes your items unbreakable!",
+	"authors": [
+		"Slide_AM"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/unbreakable-items/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.slide_am.unbreakable_items.UnbreakableItems"
+		]
+	},
+	"mixins": [
+		"unbreakable-items.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17"
+	}
+}
